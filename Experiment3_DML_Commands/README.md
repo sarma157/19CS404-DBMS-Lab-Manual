@@ -48,10 +48,10 @@ SELECT column1, column2 FROM table_name WHERE condition;
 *Question 1*
 --
 ![image](https://github.com/user-attachments/assets/4edfbe94-d2a2-4790-aaac-56760b245cb8)
-
+```
 sql
 UPDATE Products SET quantity=(quantity*1.10);
-
+```
 
 *Output:*
 
@@ -61,10 +61,10 @@ UPDATE Products SET quantity=(quantity*1.10);
 ---
 ![image](https://github.com/user-attachments/assets/01f97ed1-fc38-4cde-bdb4-a737c5af82b1)
 
-
+```
 sql
 UPDATE Employees SET first_name='John' WHERE department_id=80 AND commission_pct<0.35;
-
+```
 
 *Output:*
 
@@ -75,10 +75,10 @@ UPDATE Employees SET first_name='John' WHERE department_id=80 AND commission_pct
 ---
 ![image](https://github.com/user-attachments/assets/dd2d8229-5c68-45ab-8a30-d721e365512d)
 
-
+```
 sql
 UPDATE Employees SET email='not available',commission_pct=0.55 WHERE department_id=110;
-
+```
 
 *Output:*
 
@@ -89,10 +89,10 @@ UPDATE Employees SET email='not available',commission_pct=0.55 WHERE department_
 ---
 ![image](https://github.com/user-attachments/assets/5477916f-1378-46b1-821b-541c1053cabd)
 
-
+```
 sql
 UPDATE Employees SET salary=8000 WHERE employee_id=105 AND salary<5000;
-
+```
 
 *Output:*
 
@@ -103,10 +103,10 @@ UPDATE Employees SET salary=8000 WHERE employee_id=105 AND salary<5000;
 ---
 ![image](https://github.com/user-attachments/assets/1eca85d1-b3d9-4af5-8431-756c45189f44)
 
-
+```
 sql
 UPDATE Employees SET salary=salary*2 WHERE department_id=20 AND job_id like '%MAN';
-
+```
 
 *Output:*
 
@@ -117,10 +117,10 @@ UPDATE Employees SET salary=salary*2 WHERE department_id=20 AND job_id like '%MA
 ---
 ![image](https://github.com/user-attachments/assets/baa40d29-342f-4df1-9c43-d0ea4f364941)
 
-
+```
 sql
 DELETE FROM Doctors WHERE doctor_id=1;
-
+```
 
 *Output:*
 
@@ -131,10 +131,10 @@ DELETE FROM Doctors WHERE doctor_id=1;
 ---
 ![image](https://github.com/user-attachments/assets/861f2edc-7e6c-4257-b7e8-bf14fdc659a6)
 
-
+```
 sql
 DELETE FROM Customer WHERE GRADE=2;
-
+```
 
 *Output:*
 
@@ -145,10 +145,10 @@ DELETE FROM Customer WHERE GRADE=2;
 ---
 ![image](https://github.com/user-attachments/assets/bbcfde15-fdc4-4bf9-af97-9c76afa51fb3)
 
-
+```
 sql
 DELETE FROM Surgeries WHERE surgery_id=3 OR surgeon_id=4;
-
+```
 
 *Output:*
 
@@ -158,10 +158,10 @@ DELETE FROM Surgeries WHERE surgery_id=3 OR surgeon_id=4;
 *Question 9*
 ---
 ![image](https://github.com/user-attachments/assets/a9eb0580-b7a2-42cf-a238-d7f8724f3462)
-
+```
 sql
 DELETE FROM Doctors WHERE last_name is NULL;
-
+```
 
 *Output:*
 
@@ -172,10 +172,10 @@ DELETE FROM Doctors WHERE last_name is NULL;
 ---
 ![image](https://github.com/user-attachments/assets/9ee2dc3e-402d-4093-9609-81b72e094074)
 
-
+```
 sql
 DELETE FROM Customer WHERE WORKING_AREA='New York';
-
+```
 
 *Output:*
 
